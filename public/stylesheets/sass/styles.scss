@@ -1,0 +1,55 @@
+.game-content {
+  font-family: Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.trivia {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.guess{
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+.cast{
+  margin: 25px;
+}
+#chemical-element{
+  height: 30px;
+}
+.letter{
+  font-family: Avantgarde, sans-serif;
+  font-size: 56px;
+  font-weight: normal;
+}
+.element{
+  font-family: Helvetica, sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+.letter.element{
+  color: #3EA865;  
+}
+.score {
+  font-size: 15px;
+}
+.score .points {
+  font-size: 20px;
+  color: #F09E56;
+}
+.result {
+  font-size: 16px;  
+}
+.correct img, .incorrect img{
+  height: 32px;
+  width: 32px;
+}
+.hidden{
+  style: 'display:none';
+}

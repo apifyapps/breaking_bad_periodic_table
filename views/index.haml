@@ -1,0 +1,33 @@
+.content
+  .row
+    .span8.title
+      %img{src: '/img/breaking-bad-logo.png'}
+      %br
+      .trivia
+        Chemistry Trivia Game
+  .row
+    &nbsp;
+  .row
+    .score.span2
+      Score:
+      %span.points
+        0
+      Points
+  .row
+    .span8
+      %h2.cast
+  .row
+    .span1.guess
+      Guess
+    .span7
+      %input{id: 'chemical-element', placeholder: 'Guess Chemical Element'}
+  .row
+    .span8
+      .result.correct{style: 'display: none'}
+        %img{src: "/img/correct.png"}
+        You got it
+      .result.incorrect{style: 'display: none'}
+        %img{src: "/img/incorrect.png"}
+        Wrong. Try Again OR
+        %a{href: '#', id: 'pass-game'}
+          Pass

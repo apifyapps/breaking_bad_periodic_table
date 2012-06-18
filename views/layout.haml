@@ -1,0 +1,21 @@
+%html
+  %head
+    %title= 'Breaking Bad Chemistry Trivia Game'
+    %script{type: 'text/javascript', src: '/javascripts/jquery.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/bootstrap.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/bootstrap-typeahead.js'}
+    %script{type: 'text/javascript', src: '/javascripts/underscore-min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/app.js'}
+    %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/styles.css'}
+    %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/bootstrap.min.css'}
+    %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/bootstrap-responsive.min.css'}
+  %body.game-content
+    .container-fluid
+      .span12
+        = yield
+    %footer
+      .container
+        %small.right
+          Built with
+          %a{href: "http://apify.heroku.com/resources/4fdf1c35c1caa90001000004", target: '_blank'}
+            APIfy
