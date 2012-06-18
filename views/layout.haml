@@ -11,5 +11,11 @@
     %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/bootstrap-responsive.min.css'}
   %body.game-content
     .container-fluid
-      .span12
+      .span8
         = yield
+    %footer.container-fluid
+      .span4.offset4
+        [ Built with
+        %a{href: "http://apify.heroku.com/resources/4fdf1c35c1caa90001000004", target: '_blank'}
+          APIfy
+        ]
